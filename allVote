@@ -1,0 +1,8 @@
+#phone based voter registration
+
+Use allAuth to invite users
+
+1: Text all users who aren't registered to vote, if they want to register, reply "y"
+2: allAuth users already have name address phone and email
+3: if user in a online voting state, use curl to enter form (or API)
+4: if user is not in an online voting state, email them pdf of pre formated registration card to esign, do a backend mail process
